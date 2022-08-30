@@ -1,0 +1,109 @@
+body {
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  padding: 50px 120px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Info section */
+
+.info {
+  background-color: #1A1B21;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.portrait {
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-style: normal;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin: 20px 0px 0px;
+}
+
+.title p {
+  font-weight: 400;
+  font-size: 12.8px;
+  color: #F3BF99;
+  margin: 6px 0px 8px;
+}
+
+.title small {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #F5F5F5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:first-of-type {
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  color: #374151;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+a:first-of-type:hover {
+  background-color: #e6e6e6;
+}
+
+a:last-of-type:hover {
+  background-color: #4884cb;
+}
+
+a:last-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  background-color: #5093E2;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+}
+
+.linked-icon {
+  color: #fff;
+}
+
+.mail-icon {
+  color: #1E1F26;
+}
+
+
+/* End Info section */
