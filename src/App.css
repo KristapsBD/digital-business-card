@@ -115,6 +115,7 @@ a:last-of-type {
   padding: 35px 35px;
   width: 250px;
   background-color: #1A1B21;
+  padding-bottom: 0px;
 }
 
 .heading {
@@ -134,3 +135,10 @@ a:last-of-type {
 }
 
 /* End About section */
+
+.interests {
+  padding: 35px 35px;
+  width: 250px;
+  background-color: #1A1B21;
+  padding-top: 25px;
+}
