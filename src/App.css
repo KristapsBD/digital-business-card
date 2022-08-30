@@ -53,11 +53,11 @@ body {
   margin-top: 15px;
 }
 
-a {
+.info a {
   text-decoration: none;
 }
 
-a:first-of-type {
+.info a:first-of-type {
   background-color: #fff;
   border: none;
   border-radius: 6px;
@@ -74,15 +74,15 @@ a:first-of-type {
   line-height: 16px;
 }
 
-a:first-of-type:hover {
+.info a:first-of-type:hover {
   background-color: #e6e6e6;
 }
 
-a:last-of-type:hover {
+.info a:last-of-type:hover {
   background-color: #4884cb;
 }
 
-a:last-of-type {
+.info a:last-of-type {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -136,9 +136,34 @@ a:last-of-type {
 
 /* End About section */
 
+/* Interests section */
+
 .interests {
   padding: 35px 35px;
   width: 250px;
   background-color: #1A1B21;
   padding-top: 25px;
 }
+
+/* End Interests section */
+
+/* Footer section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer a {
+  color: #918E9B;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #83808c;
+}
+
+/* End Footer section */
